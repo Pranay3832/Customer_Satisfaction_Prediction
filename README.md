@@ -6,26 +6,6 @@ Predicts customer satisfaction using machine learning on support ticket data. In
 
 The project uses the `customer_support_tickets.csv` dataset, containing information about customer support interactions, product purchases, ticket details (like type, subject, channel, priority, status), resolution times, and customer satisfaction ratings.
 
-## Setup
-
-1.  Clone the repository:
-    ```bash
-    git clone <repository-url>
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd <repository-name>
-    ```
-3.  Install required libraries:
-    ```bash
-    pip install pandas scikit-learn matplotlib seaborn xgboost
-    ```
-    *(Note: Ensure you have Python and pip installed.)*
-
-## Usage
-
-Open and run the `Customer_Satisfaction_Prediction (2).ipynb` notebook using Jupyter Notebook, JupyterLab, Google Colab, or a compatible environment. The notebook contains the complete workflow from data loading to model evaluation.
-
 ## Project Workflow
 
 1.  **Import Libraries:** Import necessary Python libraries for data manipulation, preprocessing, modeling, and visualization.
@@ -60,6 +40,3 @@ Open and run the `Customer_Satisfaction_Prediction (2).ipynb` notebook using Jup
 * Evaluation metrics (Accuracy, Precision, Recall, F1-score) are presented in the notebook for the tested models (e.g., XGBoost, tuned model). Initial results showed accuracy around 18%, suggesting the prediction task is challenging with the current features/data.
 * Feature importance analysis helps identify the factors most influential in predicting customer satisfaction according to the model.
 
-## Author
-
-* Pranay Kudale
